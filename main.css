@@ -93,9 +93,119 @@ p{
     gap: 35px;
     align-items: center;
 }
+.section4{
+    display: flex;
+    gap: 35px;
+    flex-direction: column;
+}
+.section4-div1{
+    display: flex;
+    gap: 50px;
+}
+.section4-div1-part2{
+    justify-items: right;
+}
+.section4-div2{
+    display: flex;
+    justify-content: space-between;
+}
+.size-1{
+    width: 15px;
+}
+.size-11{
+    width: 9px;
+}
+.longbox-mini-div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #FFFFFF;
+}
 .mainp{
     font-size: 63px;
     font-weight: 400;
+}
+.longbox-div1{
+    display: flex;
+    gap: 20px;
+}
+.longboxp1{
+    font-size: 20px;
+    font-weight: 800;
+}
+.longboxp11{
+    font-size: 20px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+.pwhite{
+    color: #FFFFFF;
+}
+.longboxp3{
+    font-size: 20px;
+    font-weight: 800;
+    align-self: self-end;
+}
+.longboxp13{
+    font-size: 20px;
+    font-weight: 800;
+    align-self: self-end;
+    color: #FFFFFF;
+}
+.longboxp2{
+    font-size: 80px;
+    font-weight: 800;
+    align-self: center;
+}
+.longboxp12{
+    font-size: 80px;
+    font-weight: 800;
+    align-self: center;
+    color: #FFFFFF;
+}
+.button4{
+    width: 100%;
+    margin: auto;
+    background-color: #151515;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+    color: #FFFFFF;
+}
+.button41{
+    width: 100%;
+    margin: auto;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+    color: #151515;
+}
+.longbox{
+    width: 27%;
+    height: 700px;
+    background-color: #F0F0F0;
+    padding: 30px;
+    border: 3px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.longbox1{
+    width: 27%;
+    height: 700px;
+    background-color: #151515;
+    padding: 30px;
+    border: 3px solid grey;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.longboxx{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 .limitedp{
     width: 78%;
@@ -106,6 +216,13 @@ p{
 }
 .limitedp2{
     width: 95%;
+    margin-top: 20px;
+    margin-bottom: 30px ;
+    font-size: 17px;
+    line-height: 25px;
+}
+.limitedp4{
+    width: 50%;
     margin-top: 20px;
     margin-bottom: 30px ;
     font-size: 17px;
@@ -143,6 +260,13 @@ p{
     margin-top: 20px;
     margin-bottom: 50px;
 }
+.hugep1{
+    font-size: 52px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 86%;
+}
 .startingp{
     font-size: 14px;
     font-weight: 700;
@@ -159,6 +283,22 @@ p{
 .psize{
     font-size: 18px;
     font-weight: 400;
+}
+.longbox-div1-1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.psize1{
+    font-size: 18px;
+    font-weight: 400;
+    word-spacing: 5px;
+}
+.psize11{
+    font-size: 18px;
+    font-weight: 400;
+    word-spacing: 5px;
+    color: #FFFFFF;
 }
 .chapter2div{
     display: flex;
