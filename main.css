@@ -66,13 +66,24 @@ p{
     display: flex;
     gap: 30px;
 }
+.size{
+    width: 17px;
+}
 
 .main{
     width: 85%;
     margin: auto;
     margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 150px;
 }
 .section1{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+.section2{
     display: flex;
     gap: 35px;
     align-items: center;
@@ -88,6 +99,13 @@ p{
     margin-bottom: 30px ;
     font-size: 18px;
 }
+.limitedp2{
+    width: 95%;
+    margin-top: 20px;
+    margin-bottom: 30px ;
+    font-size: 17px;
+    line-height: 25px;
+}
 .input-and-button{
     display: flex;
     border: 1px solid #151515;
@@ -98,4 +116,30 @@ p{
     display: flex;
     gap: 40px;
     margin-top: 70px;
+}
+.hugep{
+    font-size: 52px;
+    font-weight: 400;
+}
+.startingp{
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid #151515;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+}
+.chapter2p{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.psize{
+    font-size: 18px;
+    font-weight: 400;
+}
+.chapter2div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
 }
