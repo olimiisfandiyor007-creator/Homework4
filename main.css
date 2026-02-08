@@ -88,6 +88,11 @@ p{
     gap: 35px;
     align-items: center;
 }
+.section3{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
 .mainp{
     font-size: 63px;
     font-weight: 400;
@@ -106,6 +111,21 @@ p{
     font-size: 17px;
     line-height: 25px;
 }
+.limitedp3{
+    width: 75%;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.limited{
+    width: 80%;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
 .input-and-button{
     display: flex;
     border: 1px solid #151515;
@@ -120,6 +140,8 @@ p{
 .hugep{
     font-size: 52px;
     font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 .startingp{
     font-size: 14px;
@@ -142,4 +164,12 @@ p{
     display: flex;
     flex-direction: column;
     row-gap: 30px;
+}
+.p-section3{
+    font-size: 28px;
+}
+.section3-div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
