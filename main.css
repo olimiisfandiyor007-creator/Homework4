@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    font-family: "Tektur", sans-serif;
+    color: #151515;    
+}
+.header{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.headerpart1{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.forp{
+    color: #151515;
+    font-weight: 400;
+    font-size: 18px;
+}
+.button1{
+    font-size: 17px;
+    border: none;
+    background-color: transparent;
+    padding: 12px;
+    text-align: center;
+    width: 130px;
+}
+.button2{
+    font-size: 17px;
+    border: none;
+    background-color: #151515;
+    padding: 12px;
+    text-align: center;
+    width: 130px;
+    color: #FFFFFF;
+}
+.buttons{
+    display: flex;
+    gap: 30px;
+}
+
