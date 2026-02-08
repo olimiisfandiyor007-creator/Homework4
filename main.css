@@ -3,8 +3,11 @@
     font-family: "Tektur", sans-serif;
     color: #151515;    
 }
+p{
+    font-weight: 400;
+}
 .header{
-    width: 80%;
+    width: 85%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -30,6 +33,17 @@
     text-align: center;
     width: 130px;
 }
+.input{
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    padding: 12px;
+    width: 230px;
+}
+::placeholder{
+    font-size: 16px;
+    color: #151515;
+}
 .button2{
     font-size: 17px;
     border: none;
@@ -39,8 +53,49 @@
     width: 130px;
     color: #FFFFFF;
 }
+.button3{
+    font-size: 16px;
+    border: none;
+    background-color: #151515;
+    padding: 12px;
+    text-align: center;
+    width: 200px;
+    color: #FFFFFF;
+}
 .buttons{
     display: flex;
     gap: 30px;
 }
 
+.main{
+    width: 85%;
+    margin: auto;
+    margin-top: 100px;
+}
+.section1{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+.mainp{
+    font-size: 63px;
+    font-weight: 400;
+}
+.limitedp{
+    width: 78%;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px ;
+    font-size: 18px;
+}
+.input-and-button{
+    display: flex;
+    border: 1px solid #151515;
+    width: 450px;
+    margin-top: 40px;
+}
+.imgs{
+    display: flex;
+    gap: 40px;
+    margin-top: 70px;
+}
