@@ -191,6 +191,11 @@ p{
     flex-direction: column;
     justify-content: space-between;
 }
+.section5{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
 .longbox1{
     width: 27%;
     height: 700px;
@@ -213,6 +218,38 @@ p{
     margin-top: 20px;
     margin-bottom: 30px ;
     font-size: 18px;
+}
+.limitedp5{
+    width: 65%;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px ;
+    font-size: 18px;
+}
+.limitedp51{
+    width: 90%;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px ;
+    font-size: 18px;
+}
+.labels{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.labels1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid #151515;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.chapter5p{
+    font-size: 18px;
+    font-weight: 800;
 }
 .limitedp2{
     width: 95%;
