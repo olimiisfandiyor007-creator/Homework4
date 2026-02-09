@@ -19,6 +19,9 @@ p{
     align-items: center;
     gap: 40px;
 }
+.imgsize{
+    width: 70px;
+}
 
 .forp{
     color: #151515;
@@ -96,6 +99,7 @@ p{
     row-gap: 150px;
 }
 .section1{
+    width: 100%;
     display: flex;
     gap: 35px;
     align-items: center;
@@ -328,6 +332,10 @@ p{
     width: 450px;
     margin-top: 40px;
 }
+.flex1{
+    display: flex;
+    gap: 600px;
+}
 .input-and-button1{
     display: flex;
     border: 1px solid #FFFFFF;
@@ -375,6 +383,7 @@ p{
 }
 .width50{
     width: 60px;
+    height: 60px;
 }
 .flex{
     display: flex;
@@ -434,4 +443,182 @@ p{
     display: flex;
     align-items: center;
     gap: 30px;
+}
+.none1{
+    display: none;
+}
+
+@media (max-width: 510px) {
+    .header{
+        width: 95%;
+    }
+    .none{
+        display: none;
+    }
+    .buttons{
+        display: none;
+    }
+    .none1{
+        display: inline;
+    }
+    .mobileversion{
+        display: flex;
+        justify-content: space-between;
+    }
+    .main{
+        width: 95%;
+    }
+    .section1{
+        width: 100%;
+        flex-direction: column;
+    }
+    .section2{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .section3{
+        width: 100%;
+        flex-direction: column;
+    }
+    .section4{
+        width: 100%;
+        flex-direction: column;
+    }
+    .section5{
+        width: 100%;
+        flex-direction: column;
+    }
+    .mainp{
+        font-size: 30px;
+    }
+    .footer{
+        width: 100%;
+        flex-direction: column;
+        padding-bottom: 150px;
+    }
+    .input-and-button{
+        width: 350px;
+    }
+    .input{
+        width: 170px;
+    }
+    .button3{
+        width: 160px;
+    }
+    .limitedp{
+        width: 100%;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .limitedp3{
+        width: 100%;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .width100{
+        width: 100%;
+    }
+    .hugep{
+        font-size: 32px;
+    }
+    .hugep1{
+        font-size: 32px;
+        width: 90%;
+    }
+    .limitedp2{
+        width: 100%;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .limitedp4{
+        width: 100%;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .startingp{
+        font-size: 20px;
+        font-weight: 800;
+        border: 1px solid #151515;
+        width: 130px;
+        text-align: center;
+        padding: 10px;
+    }
+    .limited{
+        width: 100%;
+    }
+    .img1{
+        width: 70px;
+    }
+    .p-section3{
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    .section3-div{
+        align-items: start;
+    }
+    .width90{
+        width: 90%;
+    }
+    .section4-div1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .section4-div1-part2{
+        justify-items: left;
+    }
+    .section4-div2{
+        flex-direction: column;
+    }
+    .longbox{
+        width: 330px;
+        padding: 15px;
+    }
+    .longbox1{
+        width: 330px;
+        padding: 15px;
+    }
+    .footer-chapter{
+        width: 90%;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-chapter1{
+        width: 90%;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .input-and-button1{
+        width: 350px;
+    }
+    .input1{
+        width: 190px;
+    }
+    .button5{
+        width: 160px;
+    }
+    .flex1{
+        gap: 140px;
+    }
+    .footerp{
+        font-size: 22px;
+    }
+    .flex{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .limited1{
+        width: 100%;
+    }
+    .psize-white{
+        font-size: 18px;
+        font-weight: 400;
+        color: #FFFFFF;
+        line-height: 40px;
+    }
+    .gap{
+        margin-top: 80px;
+    }
 }
